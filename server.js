@@ -21,8 +21,8 @@ function parseEnvList(env) {
 
 var cors_proxy = require('./lib/cors-anywhere');
 cors_proxy.createServer({
-  originBlacklist: originBlacklist,
-  originWhitelist: originWhitelist,
+    originWhitelist: [],
+    requireHeader: [],
   requireHeader: ['origin', 'x-requested-with'],
   // checkRateLimit: checkRateLimit, // отключено
   removeHeaders: [
