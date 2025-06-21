@@ -1,0 +1,1 @@
+CORS Proxy based on cors-anywhere but no ratelimit
